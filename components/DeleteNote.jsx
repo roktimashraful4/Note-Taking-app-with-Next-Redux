@@ -32,7 +32,7 @@ const DeleteNote = ({isDelete,setd, id }) => {
                                     <button
                                         className="w-full mt-2 p-2.5 flex-1 text-white font-semibold bg-red-600 rounded-md hover:bg-red-500"
                                         onClick={handelDelete}>
-                                        Save
+                                        Delete
                                     </button>
                                     <button
                                         className="w-full mt-2 p-2.5 flex-1 text-white rounded-md outline-none border "
