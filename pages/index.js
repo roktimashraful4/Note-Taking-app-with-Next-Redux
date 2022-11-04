@@ -56,7 +56,7 @@ export default function Home() {
             </div>
 
               {/* navbar Components  */}
-              <NabBar setM = {setShowModal} /> 
+              <NabBar setM = {setShowModal} note={notes} /> 
               
               {/* If Notes is empty this is showing  */}
               { !loading &&  notes.length == 0  ? <div className='grid place-items-center'>
